@@ -49,17 +49,26 @@ img { max-width: 100%; display: block; }
   transition: color 0.2s;
 }
 
+
 .hero {
-  padding: 3rem 2rem;
-  display: flex;
-  align-items: center;
-  gap: 2rem;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .hero-img {
-  border-radius: 5px;
-  flex: 1;
+    border-radius: 5px;
+    flex: 0 1 50%;
+    width: 50%;
+    max-width: 550px;
+    height: 300px;
+    object-fit: cover;
 }
+
+
 
 .hero-text {
   flex: 1;
